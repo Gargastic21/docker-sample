@@ -23,17 +23,6 @@ webserver file has built, the next step is to create a container from the image 
 docker run -d -p 8080:80 tag_name
 ```
 
-
-## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
-
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
