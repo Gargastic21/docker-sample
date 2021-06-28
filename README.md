@@ -23,6 +23,15 @@ webserver file has built, the next step is to create a container from the image 
 docker run -d -p 8080:80 tag_name
 ```
 
+use below command as 80 port is already exposed:
+```bash
+docker run -d tag_name
+```
+or
+
+```bash
+docker run -d -p 80:80 tag_name
+```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
